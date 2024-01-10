@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .loru{
     background-image:linear-gradient(90deg, #9d7878, blanchedalmond);
     padding-top: 50px;
@@ -117,3 +118,124 @@ position: relative;
 
 
 
+=======
+.loru{
+    background-image:linear-gradient(90deg, #9d7878, blanchedalmond);
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+section.payment, section.shopping, section.our-store,section.gold-rate{
+    text-align: center;
+    padding: 15px;
+    margin:20px;
+    box-sizing: border-box;
+    background-color: #850101;
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 1%;
+    border: 5px double azure;
+}
+
+.open1{
+    width: 100%;
+    margin:0;
+    margin-top: 30px;
+    color: #edc96d;
+    border: 5px solid brown;
+    background-color: brown;
+    height: 40px;
+    
+    position: absolute;
+    transition: transform 0.5s ease;
+    z-index: 121;
+    top:-3.5rem;
+    left: 0%;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    text-align: left;
+}
+.drum
+{
+    height: max-content;
+    background-color: #850101;
+    color: #f3bd36;
+    font-family:'Lato' ;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: large;
+    
+}
+
+section.payment .drum{
+    text-align: justify;
+    text-size-adjust:inherit;
+}
+section.payment .drum .element{
+    margin: 20px;
+}
+section.payment .drum .element span{
+    font-size: larger;
+    font-weight: 800;
+    text-decoration: underline;
+
+}
+.iframe-viewer{
+    
+    height: 135vh;
+    top: -201px;
+    
+    left: -184px;
+    width: 1535px;
+    position: absolute;
+}
+
+section.gold-rate .drum {
+    text-align: center;
+    padding-top: 20px;
+    padding:0 20%;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+section.gold-rate .drum .drum1{
+    position: relative;
+    
+    height: 110vh;
+    width: 845px;
+    overflow: hidden;
+}
+
+.open1 h1,.open1 .ima{
+    display: inline-block;
+    vertical-align:super;
+    text-align:right;
+}
+.open1 h1{
+    margin-left: 20px;
+}
+.open1 .ima{
+    height: 100%;
+width: 100%;
+vertical-align: super;
+text-align: right;
+top: 0;
+position: relative;
+}
+.open1 .ima img{
+    position: inherit;
+    top: -35px;
+    right: 5px;
+    height: 100%;
+    animation: anime 1s linear;
+
+}
+.ima.mirrored img {
+    transform: scaleY(-1);
+  }
+
+
+
+>>>>>>> 1fa599af01a5130fa17420f0d2c724b30772b45d

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 section.bracelets,
 section.earrings,
 section.rings,
@@ -184,3 +185,191 @@ section.silver .pallets .details .det {
 }
 
 
+=======
+section.bracelets,
+section.earrings,
+section.rings,
+section.necklaces,
+section.coins,
+section.silver {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section.bracelets .see,
+section.earrings .see,
+section.rings .see,
+section.necklaces .see,
+section.coins .see,
+section.silver .see {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section.bracelets .heading,
+section.earrings .heading,
+section.rings .heading,
+section.necklaces .heading,
+section.coins .heading,
+section.silver .heading {
+    background: linear-gradient(to right, #ffb700, #9a5c00);
+    -webkit-background-clip: text;
+    
+    color: transparent;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+#hidden1,
+#hidden2,
+#hidden3,
+#hidden4,
+#hidden5,
+#hidden6
+{
+    display: none;
+    
+}
+
+
+section.bracelets .pallets,
+section.earrings .pallets,
+section.rings .pallets,
+section.necklaces .pallets,
+section.coins .pallets,
+section.silver .pallets {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+section.bracelets .submit,
+section.earrings .submit,
+section.rings .submit,
+section.necklaces .submit,
+section.coins .submit,
+section.silver .submit {
+    width: 200px;
+    height: 50px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all .3s ease;
+    background-color: #6e1010;
+    color: #ffffff;
+}
+
+section.bracelets .submit:hover,
+section.earrings .submit:hover,
+section.rings .submit:hover,
+section.necklaces .submit:hover,
+section.coins .submit:hover,
+section.silver .submit:hover {
+    color: #6e1010;
+    background-color: transparent;
+    border: 2px solid #6e1010;
+}
+
+section.bracelets .pallets .details,
+section.earrings .pallets .details,
+section.rings .pallets .details,
+section.necklaces .pallets .details,
+section.coins .pallets .details,
+section.silver .pallets .details {
+    height: 300px;
+    width: 250px;
+    background: #ceb4b4;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid transparent;
+}
+
+section.bracelets .pallets .details .det:hover,
+section.earrings .pallets .details .det:hover,
+section.rings .pallets .details .det:hover,
+section.necklaces .pallets .details .det:hover,
+section.coins .pallets .details .det:hover,
+section.silver .pallets .details .det:hover {
+    color: #ff9900;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+section.bracelets .pallets .details img,
+section.earrings .pallets .details img,
+section.rings .pallets .details img,
+section.necklaces .pallets .details img,
+section.coins .pallets .details img,
+section.silver .pallets .details img {
+    width: 100%;
+}
+
+section.bracelets .pallets .details .det,
+section.earrings .pallets .details .det,
+section.rings .pallets .details .det,
+section.necklaces .pallets .details .det,
+section.coins .pallets .details .det,
+section.silver .pallets .details .det {
+    color: #6e1010;
+    transition: all 0.3s ease;
+}
+
+#resetButton1,
+#resetButton2,
+#resetButton3,
+#resetButton4,
+#resetButton5,
+ #resetButton6{
+    display: none;
+}
+
+.rm {
+    position: relative;
+}
+
+.reset {
+    position: fixed;
+    right: 5%;
+    bottom: 50px;
+}
+
+.reset img:hover {
+    border: none;
+    background-color: #6e1010;
+}
+
+.reset img {
+    height: 100%;
+    border: none;
+    background-color: #787878;
+}
+
+.loru {
+    background-image: linear-gradient(90deg, #9d7878, blanchedalmond);
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.scrolling-text{
+    margin: 2rem;
+    text-align:justify;
+    background: linear-gradient(to right, #f7b91b, #ff9900);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 0 10rem;
+    box-sizing: border-box;
+}
+
+
+>>>>>>> 1fa599af01a5130fa17420f0d2c724b30772b45d

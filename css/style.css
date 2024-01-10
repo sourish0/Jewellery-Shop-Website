@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
@@ -400,3 +401,407 @@ footer.container.contacts a p,img{
     font-size: 3rem;
     text-decoration: underline;
 }
+=======
+*{
+    padding: 0;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+.loru{
+    background-image:linear-gradient(90deg, #9d7878, blanchedalmond);
+}
+.header-1{
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+.header-1 .logo img{
+    height: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.header-1 .sidebar{
+    text-align: right;
+}
+
+header{
+    background: #850101;
+}
+.header-2{
+    text-align: center;
+  width: fit-content;
+  height: 50px;
+  padding: 0 16%;
+    
+}
+.header-2 .orna{
+    display: flex;
+    text-align: center;
+    margin-top: 6px;
+    
+    margin-right: 10%;
+}
+.header-2 .orna a{
+    font-size: 20px;
+    text-decoration:none ;
+    margin:0 3%;
+    text-transform: uppercase;
+    color: #B1955D;
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    height: auto; /* Increase the height for more scrolling */
+  }
+  
+  .scrolling-text {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.5s, transform 1.5s;
+    margin-bottom: 20px; /* Adjust as needed to create space between elements */
+  }
+  
+.header-2 .orna a:hover{
+    font-size: 25px;
+    text-decoration:underline #e1c07c;
+
+}
+section.home .slideshow .slide img{
+    
+    width: 100%;
+    height: 100%;
+
+}
+section.home .slideshow .slide{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.slick-prev.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    margin-left: 20px;
+    border: none;
+    background:#ffffff;
+    border-radius: 50%;
+    color: transparent;
+  }
+
+  .slick-next.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    margin-right: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: none;
+    color: transparent;
+}
+.introduction p{
+    text-align: center;
+    margin: 0 100px;
+    padding: 0 100px;
+    box-sizing: border-box;
+    color: #264653;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+section.images-with-details{
+    background: #ba6a6a;
+    margin-bottom: 2rem;
+}
+section.images-with-details .pallet .card{
+    display: flex;
+    text-align: center;
+}
+section.images-with-details .pallet .card .left{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+}
+
+section.images-with-details .pallet .card .left .img img{
+    width: 100%;
+}
+section.images-with-details .pallet .card .left .img .explore{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 1;
+    height: 50px;
+    width: 100px;
+    border: 2px solid #A7925D;
+    background: none;
+    font-size: 25px;
+    color: #A7925D;
+    transition: all 0.3s ease;
+}
+section.images-with-details .pallet .card .left .img .explore:hover{
+    border: #A7925D;
+    background: #A7925D;
+    color: #ffffff;
+}
+section.images-with-details .pallet .card .right{
+    display: inline-block;
+    width: 50%;
+    padding: 5%;
+    vertical-align: middle;
+}
+section.images-with-details .pallet .card .right h1{
+    font-size: 50px;
+    margin-top: 50px;
+    color: #d3b15a;
+}
+section.images-with-details .pallet .card .right p{
+    font-size: 1.5rem;
+    margin-top: 50px;
+    color: #e1c07c;
+    vertical-align: middle;
+}
+
+footer
+{
+    background: #000000;
+    color: #850101;
+    text-align: center;
+}
+footer .container{
+    display: flex;
+    flex-direction: row;
+}
+footer .container .useful,.information,.contacts,.follow{
+    margin: 30px;
+    padding: 20px;
+    width: 35rem;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+
+}
+footer .container .useful ul{
+    list-style-type : none;
+}
+footer .container .information ul{
+    list-style-type : none;
+}
+footer .container .contacts ul{
+    list-style-type : none;
+}
+footer .container .follow ul{
+    list-style-type : none;
+}
+footer .container .useful li,footer .container .useful h1{
+    margin-bottom: 2rem;
+}
+footer .container .useful li a{
+    text-decoration: none;
+    color: #d3b15a;
+}
+footer .container .information li, footer .container .information h1{
+    margin-bottom: 2rem;
+}
+footer .container .information li a{
+    text-decoration: none;
+    color: #d3b15a;
+}
+footer .container .contacts li,footer .container .contacts h1{
+    margin-bottom: 2rem;
+}
+footer .container .contacts li a{
+    text-decoration: none;
+    color: #d3b15a;
+}
+footer .container .follow .ero{
+    display: flex;
+    text-align:right;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+footer .container .follow .ero a{
+    margin-right: 25px;
+    
+}
+
+footer .container .contacts li a img,p{
+    display: inline-block;
+    margin-right: 1rem;
+}
+footer .container .contacts li a img{
+    height: 50px;
+    width: 50px;
+}
+footer hr{
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    width: 80vw;
+    margin: 0 10vw;
+    background-color: #ffffff;
+    border: solid none;
+    border: 100%;
+    margin-bottom: 2.5rem;
+}
+footer .footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 10px;
+    align-items: center;
+}
+footer .footer .left{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin-left: 50px;
+    text-align:left;
+}
+footer .footer .left img{
+    width: 125px;
+    height: 21.5px;
+    margin-right: 10px;
+    
+
+}
+footer .footer .right{
+    text-align: left;
+    margin-top: 0;
+    padding-top: 0;
+}
+footer .footer .right h6{
+    margin-bottom: 3px;
+}
+footer .footer .right .wrap{
+    display: flex;
+}
+footer .footer .right .wrap a{
+    text-decoration: none;
+    margin-right: 2rem;
+    
+    color: #850101;
+}
+footer.container.contacts a p,img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Add your existing styles here */
+
+.live-time {
+    background: linear-gradient(to right, #9d7878, blanchedalmond);
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    font-style: oblique;
+    z-index: 1000; /* Adjust as needed to make sure it's above other elements */
+}
+@media (max-width:1024px){
+    header .header-2 .orna{
+        display:none;
+    }
+    header .header-2{
+        position: relative;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width:1024px){
+    #sudo{
+        display: none;
+    }
+}
+
+
+.sitecover{
+    position: relative;
+}
+.hamberger{
+    position: absolute;
+    top: -7px;
+    right: 76px;
+    z-index: 11;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.hamberger img{
+    
+    position: fixed;
+}
+.mobile-nav{
+    top: 0;
+    left: 0;
+    z-index: 1121;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 5rem;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    background-image: linear-gradient(90deg, #9d7878, blanchedalmond);
+    height: 5000px;
+    transition: all .5s ease-in-out;
+}
+
+.open{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+.times{
+    position: fixed ;
+    top: 30px;
+    right: 100px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+.times img{
+    width: 30px;
+}
+.mobile-nav ul{
+    list-style-type: none;
+    margin-left: 2rem;
+}
+.mobile-nav ul li img{
+    height: 100%;
+    width: 300px;
+    margin-bottom: 50px;
+}
+.mobile-nav ul li a{
+    color: #850101;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 2.5rem 0rem;
+    transition: all 0.3s ease;
+}
+.mobile-nav ul li a:hover {
+    font-size: 3rem;
+    text-decoration: underline;
+}
+>>>>>>> 1fa599af01a5130fa17420f0d2c724b30772b45d
